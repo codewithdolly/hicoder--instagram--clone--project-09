@@ -1,5 +1,5 @@
 import * as React from "react";
-import "../InstagramPage.scss";
+import "../Styles/Style.scss";
 import InstaStory from "../Images/food_account.jpg";
 import InstaStory4 from "../Images/s3.jpg";
 import InstaStory5 from "../Images/s5.jpg";
