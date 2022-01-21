@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main1 {
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border: 1rem solid rgba(0, 0, 0, 0.747);
+  border-top: 4rem solid rgba(0, 0, 0, 0.753);
+  border-radius: 2%;
+  // height: 95vh;
+  overflow-y: scroll;
+}
+
+.searchBar{
+  border: 1px solid silver;
+  margin-left: 15px;
+  border-radius: 20px;
+  background-color: rgba(192, 192, 192, 0.205);
+}
+.searchBar--icon{
+ margin-left: -35px;
+}
+
+.logo {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.socialIcons {
+  margin-left: 24rem;
+}
+
+.post {
+  margin: 1.5rem 2rem 16px 2rem;
+  border: 1px solid rgb(243, 241, 241);
+}
+
+//Story page
+.Story_Main {
+  padding: 7px;
+  padding-bottom: 1rem;
+  display: flex;
+  overflow-x: auto;
+  border: silver 1px solid;
+  .Story_Main--stories {
+    padding: 3px;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 1rem;
+    background: linear-gradient(to top, yellow, rgb(241, 5, 222));
+    .Story_Main--stories--stoty {
+      border-radius: 50%;
+      border-style: solid;
+    }
+  }
+}
